@@ -1,0 +1,23 @@
+1.打开github登陆
+2.点击YOUR repositories
+3.点击NEW
+4.在Repository name 建立一个文件夹在建立文件夹的时候可以选择Public和Private
+但记得点击 Initialize this repository with a README 的选项框
+5.Create repository
+
+6.在此页面进行的操作是点击Clone or download	可以复制SSH（不用每次上传和下载的时候输入密码）
+HTTP（每次上传和下载的时候需要输入密码）
+
+
+7.终端输入 yum -y install git
+8.终端输入ssh-keygen
+9.cat ~/.ssh/id_rsa.pub
+复制密钥到github点击头像点击Settings 找到 SSHandGPG keys 复制成功后提交
+
+
+
+10.回到终端 输入 git clone + git@github.com:abxfpy/ggg.git (+后面的是第六步复制的东西，也就是点击文件夹进入后找到Clone or download）
+
+
+11.可以用 git add.  		git commit -m +对文件的描述 	git push 提交
+
